@@ -4,7 +4,7 @@ from sql_alchemy import banco
 class UserModel(banco.Model):
     __tablename__ = 'usuarios'
 
-    user_id = banco.Column(banco.Interger, primary_key=True)
+    user_id = banco.Column(banco.Integer, primary_key=True)
     login = banco.Column(banco.String(40))
     senha = banco.Column(banco.String(40))
 
@@ -20,7 +20,14 @@ class UserModel(banco.Model):
 
     @classmethod
     def find_user(cls, user_id):
-        user = cls.query.filter_by(user_id=user_id).first()  # Select * From hoteis Where hotel_id = $hotel_if
+        user = cls.query.filter_by(user_id=user_id).first()  # Select * From user Where hotel_id = $hotel_if
+        if user:
+            return user
+        return None
+
+    @classmethod
+    def find_by_login(cls, login):
+        user = cls.query.filter_by(login=login).first()  # Select * From hoteis Where hotel_id = $hotel_if
         if user:
             return user
         return None

@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc0ba207-97a5-425d-a844-32e8e362f837" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/models/usuario.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blacklist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/usuario.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banco.db" beforeDir="false" afterPath="$PROJECT_DIR$/banco.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banco.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/usuario.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/usuario.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/hotel.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/hotel.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,7 +46,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RfwCcAuSO7omtSGguUcezZkUhm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -154,7 +159,7 @@
       <workItem from="1570071334983" duration="3386000" />
       <workItem from="1570075080021" duration="1575000" />
       <workItem from="1570148969789" duration="7083000" />
-      <workItem from="1570393126453" duration="4436000" />
+      <workItem from="1570393126453" duration="10189000" />
     </task>
     <servers />
   </component>
@@ -177,6 +182,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/REST_API_com_Python_e_Flask$hotel.coverage" NAME="hotel Coverage Results" MODIFIED="1570075250446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/resources" />
     <SUITE FILE_PATH="coverage/REST_API_com_Python_e_Flask$cria_banco.coverage" NAME="cria_banco Coverage Results" MODIFIED="1570152163654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/REST_API_com_Python_e_Flask$app.coverage" NAME="app Coverage Results" MODIFIED="1570402027842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/REST_API_com_Python_e_Flask$app.coverage" NAME="app Coverage Results" MODIFIED="1570418688992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
