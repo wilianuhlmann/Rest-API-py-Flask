@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc0ba207-97a5-425d-a844-32e8e362f837" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blacklist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/usuario.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banco.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/usuario.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/usuario.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/hotel.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/hotel.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,12 +21,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="banco" type="feb32156:DbDataSourceImpl" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -159,12 +148,22 @@
       <workItem from="1570071334983" duration="3386000" />
       <workItem from="1570075080021" duration="1575000" />
       <workItem from="1570148969789" duration="7083000" />
-      <workItem from="1570393126453" duration="10189000" />
+      <workItem from="1570393126453" duration="10802000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
