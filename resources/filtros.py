@@ -22,6 +22,7 @@ def normalize_path_params(cidade=None,
         'limit': limit,
         'offset': offset}
 
+
 consulta_sem_cidade = "SELECT * FROM hoteis \
 WHERE (estrelas >= ? and estrelas <= ?) \
 and (diaria >= ? and diaria <= ?) \

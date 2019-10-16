@@ -14,9 +14,11 @@ app.config['JWT_BLACKLIST_ENABLED'] = True
 api = Api(app)
 jwt = JWTManager(app)
 
+
 @app.before_first_request
 def cria_banco():
     banco.create_all()
+
 
 @jwt.token_in_blacklist_loader
 def verifica_blacklist(token):
@@ -25,6 +27,7 @@ def verifica_blacklist(token):
 @jwt.revoked_token_loader
 def token_de_acesso_invalidado():
     return jsonify({'message': 'You have been logged out.'}), 401 # unauthorized
+
 
 api.add_resource(Hoteis, '/hoteis')
 api.add_resource(Hotel, '/hoteis/<string:hotel_id>')

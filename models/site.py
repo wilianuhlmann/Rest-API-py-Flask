@@ -1,5 +1,6 @@
 from sql_alchemy import banco
 
+
 class SiteModel(banco.Model):
     __tablename__ = 'sites'
 
