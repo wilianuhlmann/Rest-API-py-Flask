@@ -1,6 +1,5 @@
 from sql_alchemy import banco
 
-
 class UserModel(banco.Model):
     __tablename__ = 'usuarios'
 
@@ -16,18 +15,18 @@ class UserModel(banco.Model):
         return {
             'user_id': self.user_id,
             'login': self.login
-        }
+            }
 
     @classmethod
     def find_user(cls, user_id):
-        user = cls.query.filter_by(user_id=user_id).first()  # Select * From user Where hotel_id = $hotel_if
+        user = cls.query.filter_by(user_id=user_id).first()
         if user:
             return user
         return None
 
     @classmethod
     def find_by_login(cls, login):
-        user = cls.query.filter_by(login=login).first()  # Select * From hoteis Where hotel_id = $hotel_if
+        user = cls.query.filter_by(login=login).first()
         if user:
             return user
         return None
