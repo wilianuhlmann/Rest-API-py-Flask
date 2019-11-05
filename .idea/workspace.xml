@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fc0ba207-97a5-425d-a844-32e8e362f837" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banco.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/site.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/site.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/filtros.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/filtros.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/site.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/site.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banco.db" beforeDir="false" afterPath="$PROJECT_DIR$/banco.db" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -138,9 +134,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="usuario" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="REST API com Python e Flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/resources" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/resources/usuario.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.app" />
+        <item itemvalue="Python.usuario" />
         <item itemvalue="Python.cria_banco" />
         <item itemvalue="Python.hotel" />
       </list>
@@ -161,7 +180,9 @@
       <workItem from="1570148969789" duration="7083000" />
       <workItem from="1570393126453" duration="10802000" />
       <workItem from="1570761744189" duration="2627000" />
-      <workItem from="1571189211038" duration="5807000" />
+      <workItem from="1571189211038" duration="6736000" />
+      <workItem from="1571284369107" duration="1746000" />
+      <workItem from="1571369563458" duration="1146000" />
     </task>
     <servers />
   </component>
@@ -193,7 +214,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/REST_API_com_Python_e_Flask$hotel.coverage" NAME="hotel Coverage Results" MODIFIED="1570075250446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/resources" />
+    <SUITE FILE_PATH="coverage/REST_API_com_Python_e_Flask$usuario.coverage" NAME="usuario Coverage Results" MODIFIED="1571286419365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/resources" />
     <SUITE FILE_PATH="coverage/REST_API_com_Python_e_Flask$cria_banco.coverage" NAME="cria_banco Coverage Results" MODIFIED="1570152163654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/REST_API_com_Python_e_Flask$app.coverage" NAME="app Coverage Results" MODIFIED="1571194248262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/REST_API_com_Python_e_Flask$app.coverage" NAME="app Coverage Results" MODIFIED="1571369566765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
